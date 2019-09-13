@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         proteinBtn.setOnClickListener(proteinButtonListener);
         Button tableBtn = (Button)findViewById(R.id.tableButton);
         tableBtn.setOnClickListener(tableButtonListener);
+
     }
     private View.OnClickListener proteinButtonListener = new View.OnClickListener() {
         @Override
@@ -32,4 +33,5 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         }
     };
+
 }
